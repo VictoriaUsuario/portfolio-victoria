@@ -16,7 +16,7 @@
 
 body{
   height: 100vh;
-  font-family: 'Montserrat', 'sans-serif';
+  font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
   background-color: var(--cor-fundo);
   color: var(--cor-texto);
@@ -24,7 +24,7 @@ body{
 
 .apresentacao{
   display: flex;
-  margin: 10%;
+  margin: 10% 15%;
   align-items: center;
   justify-content: space-between;
 }
@@ -46,6 +46,32 @@ a{
   border-radius: 20px;
 }
 
+.apresentacao__links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  
+}
+
+.apresentacao__links__link{
+  width: 378px;
+  border: 2px solid var(--cor--destaque);
+  color: var(--cor-texto);
+  font-size: 24px;
+  text-decoration: none;
+  padding: 21.5px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Montserrat';
+}
+
+
+
+
+
 
 .foto{
   height: 490px;
@@ -53,7 +79,10 @@ a{
 
 .apresentacao__conteudo{
   width: 615px;
-  
+  didplay: flex;
+  flex-direction: column;
+gap: 40px;
+
 }
 
 .apresentacao__conteudo__titulo{
@@ -64,4 +93,7 @@ a{
 
 .apresentacao__conteudo__texto{
   font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
 }
+
+
